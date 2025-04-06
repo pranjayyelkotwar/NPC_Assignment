@@ -61,7 +61,7 @@ class PMMFullStrategy2(ScriptStrategyBase):
     volume_profile_bins = 20  # number of price bins
     high_volume_levels = {}  # Will store high volume price levels
     
-    # Market sentiment parameter (hardcoded to 0.75 negative for ETH-USDT as requested)
+    # Market sentiment parameter (hardcoded to 0.75 negative for ETH-USDT)
     market_sentiment = -0.75  # Range from -1 (very negative) to 1 (very positive)
     sentiment_impact_factor = 0.0003  # How much sentiment affects spreads (30 bps max)
     
